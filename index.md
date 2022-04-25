@@ -12,9 +12,9 @@ vim /etc/ssh/sshd_config
 passwd
 ```
 
-> install service
-> > edit config to set port and login method
-> > set root passwd
+* install service
+* edit config to set port and login method
+* set root passwd
 
 * Solve remote docker git problems.
 
