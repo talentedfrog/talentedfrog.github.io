@@ -14,7 +14,6 @@ passwd
 > set root passwd
 
 * Solve remote docker git problems.
-* 
 ```bash
 cd prj_path
 rm -rf .git
