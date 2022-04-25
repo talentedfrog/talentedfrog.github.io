@@ -1,6 +1,6 @@
 # Jim's Blog HomePage
 
-* Login remote docker in local terminal。
+* Login remote docker in local terminal.
 ```bash
 apt-get install openssh-server
 
