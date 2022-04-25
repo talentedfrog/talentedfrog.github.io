@@ -4,15 +4,14 @@
 ```bash
 apt-get install openssh-server
 
-#set port
-#allow root login with psw
 vim /etc/ssh/sshd_config
 /etc/init.d/ssh restart
 
-#set ubuntu root psw
 passwd
 ```
-
+> install service
+> edit config to set port and login method
+> set root passwd
 
 * Solve remote docker git problems.
 * 
