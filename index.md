@@ -2,10 +2,10 @@
 
 * Todo List
 
-- [ ] DPS Hardware spec compare
+- [x] DPS Hardware spec compare
 - [ ] Finish a Pin Config with pin map & sch
 - [ ] Learn about the Hardware of tester
-- [ ] make a intern report
+- [x] make a intern report
 - [ ] a shmoo test based on lib func
 
 * Login remote docker in local terminal.
