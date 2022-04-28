@@ -1,5 +1,13 @@
 # Jim's Blog HomePage
 
+* Todo List
+
+- [ ] DPS Hardware spec compare
+- [ ] Finish a Pin Config with pin map & sch
+- [ ] Learn about the Hardware of tester
+- [ ] make a intern report
+- [ ] a shmoo test based on lib func
+
 * Login remote docker in local terminal.
 
 
@@ -25,7 +33,6 @@ set root passwd
 cd prj_path
 rm -rf .git
 git remote add origin remote_repo_url
-git pull
 mv .git /home/new_name.git
 ln /home/new_name.git .git
 git fetch --all
