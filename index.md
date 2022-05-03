@@ -8,8 +8,9 @@
 - [x] make a intern report
 - [ ] a shmoo test based on lib func
 
-* Login remote docker in local terminal.
+* Login remote docker in local terminal by setting local port forwarding.
 
+In remote docker
 
 ```bash
 apt-get install openssh-server
@@ -17,14 +18,14 @@ apt-get install openssh-server
 vim /etc/ssh/sshd_config # edit Port & PermitRootLogin
 service ssh restart
 
-passwd # set Unix Passwd
+passwd # set Unix Root Passwd
 ```
 
-install service
+In local terminal (Windows Terminal | Powershell)
 
-edit config to set port and login method
-
-set root passwd
+```bash
+ssh -L portB:HostC:portC user@HostC
+```
 
 * Solve remote docker git problems.
 
