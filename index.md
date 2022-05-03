@@ -21,7 +21,7 @@ service ssh restart
 passwd # set Unix Root Passwd
 ```
 
-In local terminal (Windows Terminal | Powershell)
+In local terminal (Windows Terminal or Powershell)
 
 ```bash
 ssh -L portB:HostC:portC user@HostC
