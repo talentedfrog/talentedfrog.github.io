@@ -3,8 +3,8 @@
 * Todo List
 
 - [x] DPS Hardware spec compare
-- [ ] Finish a Pin Config with pin map & sch
-- [ ] Learn about the Hardware of tester
+- [x] Finish a Pin Config with pin map & sch
+- [x] Learn about the Hardware of tester
 - [x] make a intern report
 - [ ] a shmoo test based on lib func
 
@@ -14,10 +14,10 @@
 ```bash
 apt-get install openssh-server
 
-vim /etc/ssh/sshd_config
-/etc/init.d/ssh restart
+vim /etc/ssh/sshd_config # edit Port & PermitRootLogin
+service ssh restart
 
-passwd
+passwd # set Unix Passwd
 ```
 
 install service
