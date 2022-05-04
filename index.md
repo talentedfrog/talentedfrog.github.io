@@ -33,9 +33,10 @@ ssh -L portB:HostC:portC user@HostC
 ```bash
 cd prj_path
 rm -rf .git
+git init
 git remote add origin remote_repo_url
 mv .git /home/new_name.git
-ln /home/new_name.git .git
+ln -s /home/new_name.git .git
 git fetch --all
 git reset --hard origin/master
 git branch --set-upstream-to=origin/master master
