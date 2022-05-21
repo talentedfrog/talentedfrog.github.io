@@ -19,6 +19,8 @@ vim /etc/ssh/sshd_config # edit Port & PermitRootLogin
 service ssh restart
 
 passwd # set Unix Root Passwd
+
+ssh-keygen -t rsa -C "yourEmail"
 ```
 
 In local terminal (Windows Terminal or Powershell)
